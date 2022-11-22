@@ -1,0 +1,98 @@
+.hfont{
+    font-family: 'Courgette', cursive;
+    font-weight: 500;
+    font-size: 70px;
+    text-shadow: 1px 1px 8px black;
+}
+.tagline{
+    font-family: 'Baskervville', serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 27px;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.cover{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 84vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+    ), url(img/cover2.jpg);  
+}
+.logoHeader{
+    width: 80px;
+    max-width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+:is(h1,p){
+    margin: 0;
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3em;
+}
+header ul{
+    gap: 5em;
+}
+header a{
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(87, 87, 87);
+}
+.navigation{
+    align-items: center;
+}
+.pri-list li{
+    margin: auto;
+}
+.sec-list li{
+    margin: auto;
+}
+.sec-list a{
+   color: white;
+   background-color: #3434ff;
+   border-radius: 30px;
+   padding: 7px;
+}
+.centerLogo{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 8px black;
+}
+.scroll{
+    position: absolute;
+    display: inline;
+    align-items: center;
+    bottom: 0;
+    margin-left: -19px;
+    font-weight: 200;
+    font-size: 12px;  
+}
+.midLogo{
+    width: 200px;
+    margin-top: 30px;
+}
